@@ -10,7 +10,7 @@ LOCAL_PREBUILT_JNI_LIBS_arm := @lib/armeabi-v7a/libchrome.so
 LOCAL_PREBUILT_JNI_LIBS_arm += @lib/armeabi-v7a/libchromium_android_linker.so
 else
 # minSdkVersion=16 (Jelly Bean)
-LOCAL_SRC_FILES    := ChromePublic.apk
+LOCAL_SRC_FILES    := ChromePublic/ChromePublic.apk
 LOCAL_ADDITIONAL_DEPENDENCIES := libchrome libchromium_android_linker
 endif
 
