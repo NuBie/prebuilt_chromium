@@ -11,6 +11,7 @@ ifeq ($(shell test $(PLATFORM_SDK_VERSION) -ge 21 || echo 1),)
 # minSdkVersion=21 (Lollipop)
 LOCAL_SRC_FILES    := ChromeModernPublic.apk
 LOCAL_PREBUILT_JNI_LIBS_arm := @lib/armeabi-v7a/crazy.libchrome.so
+LOCAL_PREBUILT_JNI_LIBS_arm += @lib/armeabi-v7a/libchromium_android_linker.so
 else
 # minSdkVersion=16 (Jelly Bean)
 LOCAL_SRC_FILES    := ChromePublic/ChromePublic.apk
