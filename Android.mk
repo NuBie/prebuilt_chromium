@@ -6,7 +6,7 @@ LOCAL_MODULE       := Chromium
 ifeq ($(shell test $(PLATFORM_SDK_VERSION) -ge 21 || echo 1),)
 # minSdkVersion=21 (Lollipop)
 LOCAL_SRC_FILES    := ChromeModernPublic.apk
-OCAL_PREBUILT_JNI_LIBS_arm := @lib/armeabi-v7a/crazy.libchrome.so
+LOCAL_PREBUILT_JNI_LIBS_arm := @lib/armeabi-v7a/crazy.libchrome.so
 else
 # minSdkVersion=16 (Jelly Bean)
 LOCAL_SRC_FILES    := ChromePublic/ChromePublic.apk
