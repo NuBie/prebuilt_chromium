@@ -16,6 +16,7 @@ else
 LOCAL_SRC_FILES    := ChromePublic/ChromePublic.apk
 LOCAL_REQUIRED_MODULES := libchrome libchromium_android_linker
 endif
+endif
 
 LOCAL_MODULE_TAGS   := optional
 LOCAL_MODULE_CLASS  := APPS
